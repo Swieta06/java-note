@@ -29,7 +29,7 @@ public class MenghitungBunga {
         System.out.print("masukan jumlah periode: ");
         t=input(k);
         double tn=n*t;
-        A=p*Math.pow(1+r/n,tn);
+        A=p*Math.pow((1+r/n),tn);
         System.out.println("jumlah uang beserta bunga adalah : "+A);
 
     }

@@ -10,25 +10,26 @@ public class JaraKoordinat {
         double rumus;
 
         Scanner k=new Scanner(System.in);
-        soal("X1");
-        x1=input(k);
-        soal("Y1");
-        y1=input(k);
-        soal("x2");
-        x2=input(k);
-        soal("Y2");
-        y2=input(k);
+        //soal("X1");
+        x1=input(k,"X1");
+        //soal("Y1");
+        y1=input(k,"X2");
+        //soal("x2");
+        x2=input(k,"X3");
+        //soal("Y2");
+        y2=input(k,"X4");
         rumus = (Math.sqrt((Math.pow(x2-x1,2))+(Math.pow(y2-y1,2))));
         System.out.println("Jarak antara ("+x1+","+y1+")" +" dan " +"("+ x2+","+y2+")"+" = " + rumus);
 
     }
 
-   public  static  String soal(String nilai){
+   /*public  static  String soal(String nilai){
         String s ="Masukan nilai "+nilai+" :";
         System.out.print(s);
         return s;
-   }
-    public static int input(Scanner k){
+   }*/
+    public static int input(Scanner k,String nilai){
+        System.out.print("Enter "+nilai+" : ");
         int key =k.nextInt();
         return key;
     }

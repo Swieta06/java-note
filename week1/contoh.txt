@@ -1,0 +1,4 @@
+output text
+20
+TRUE
+Baris
