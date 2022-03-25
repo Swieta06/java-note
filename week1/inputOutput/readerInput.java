@@ -8,7 +8,7 @@ public class readerInput {
         readInput();
         readOutput();
     }
-    
+
     private static void  readOutput() throws IOException {
         //System.out.println("output");
         BufferedReader output=new BufferedReader(new FileReader("C:\\Users\\swieta\\IdeaProjects\\Latihan\\src\\week1\\inputOutput\\readerInput.text"));
@@ -36,6 +36,7 @@ public class readerInput {
         ouptnilai.println(ln5);
         ouptnilai.println(r+rumus);
         ouptnilai.close();
+
 
     }
 
