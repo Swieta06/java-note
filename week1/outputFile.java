@@ -8,9 +8,9 @@ import java.io.Writer;
 public class outputFile {
     public static void main(String[] args) throws IOException {
         //String path="C:\\Users\\swieta\\IdeaProjects\\Latihan\\src\\week1\\";
+        String ouput="synergy backend";
         PrintWriter w =new PrintWriter(new FileWriter("C:\\Users\\swieta\\IdeaProjects\\Latihan\\src\\week1\\outputF.txt"));
-        w.println("synergy backend");
-
-
+        w.println(ouput);
+w.close();
     }
 }
