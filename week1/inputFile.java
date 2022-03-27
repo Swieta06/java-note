@@ -12,7 +12,7 @@ public class inputFile {
         //soal2();
         //soal3();
         //soal4();
-soal5();
+        soal5();
     }
     private static void soal1() throws IOException {
         BufferedReader reader=new BufferedReader(new FileReader("C:\\Users\\swieta\\IdeaProjects\\Latihan\\src\\week1\\contoh.txt"));
