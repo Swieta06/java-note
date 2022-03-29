@@ -8,7 +8,7 @@ public class Hw2 {
         String kalimat;
         int panjangKalimat, jumlahHuruf = 1;
         Scanner input=new Scanner(System.in);//inisialisasi utk input data
-        System.out.print("Masukan Kalimat : ");
+        System.out.print("Variable : ");
         kalimat = input.nextLine(); //menginputkan kalimat/string
         char[] arrHuruf = kalimat.toCharArray(); //huruf-huruf pada string dimasukan ke variabel array arrhuruf
         panjangKalimat = arrHuruf.length; //menghitung panjang/banyaknya huruf pada 1 kalimat yg diinputkan

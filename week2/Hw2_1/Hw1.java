@@ -6,7 +6,7 @@ public class Hw1 {
     public static void main(String[] args) {
         String huruf, hasil = "";
         Scanner k=new Scanner(System.in);
-        System.out.print("Masukkan sebuah string: ");
+        System.out.print("Masukan kalimat: ");
         huruf = k.nextLine();
         int jumlah = huruf.length();
         int jumlahHuruf = jumlah - 1;
@@ -14,6 +14,6 @@ public class Hw1 {
             hasil = hasil + huruf.charAt(jumlahHuruf);
             jumlahHuruf--;
         }
-        System.out.println("Hasil reverse string: " + hasil);
+        System.out.println("Kalimat terbalik: " + hasil);
     }
 }
