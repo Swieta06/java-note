@@ -5,8 +5,6 @@ public abstract class Account {
     public String accountNumber;
 
 
-
-
     public String getName() {
         return name;
     }
