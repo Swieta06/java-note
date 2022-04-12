@@ -1,5 +1,0 @@
-Konsep Error pada Java
-Exceptions
-Penanganan Error dengan Try-catch-block
-Bentuk Try-catch-finally pada Try-catch-block
-Keyword Throw
